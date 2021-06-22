@@ -1,0 +1,52 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Lemon Farm</string>
+    <string name="welcome">Welcome to Lemon Farm</string>
+    <string name="author">Made by: Goeun Jang</string>
+    <string name="button">MENU</string>
+    <string name="startGame">START</string>
+    <string name="option">OPTIONS</string>
+    <string name="help">HELP</string>
+    <string name="loading" tools:ignore="TypographyEllipsis">l o a d i n g ...</string>
+    <string name="boardSize">CHOOSE THE BOARD SIZE</string>
+    <string name="numbOfLemon">CHOOSE THE NUMBER OF\n \t\t\t\t\t\t\t\t\t\tLEMONS</string>
+    <string name="size1">4 ROWS \n 6 COLUMNS</string>
+    <string name="size2">5 ROWS \n 10 COLUMNS</string>
+    <string name="size3">6 ROWS \n 15 COLUMNS</string>
+    <string name="numb1">6 LEMONS</string>
+    <string name="numb2">10 LEMONS</string>
+    <string name="numb3">15 LEMONS</string>
+    <string name="numb4">20 LEMONS</string>
+    <string name="setOption">SET</string>
+    <string name="score"> LEMONS FOUND OUT OF </string>
+    <string name="hintBox">HINT BOXES USED OUT OF</string>
+    <string name="winMessage">YOU FOUND ALL THE LEMONS :D\n
+                              \t\t\t\t\t***CONGRATULATIONS***</string>
+    <string name="loseMessage">YOU FOUND ALL THE HINT BOXES :O\n
+                              \t\t\t\t\t\t\t\t\t***YOU LOSE***</string>
+    <string name="agreeToResult">SKIP</string>
+    <string name="agreeButtonToast">CLICK SKIP BUTTON TO SKIP</string>
+    <string name="gameInfo">HOW TO CHANGE GRID SIZE AND NUMBER OF LEMONS TO FIND:\n
+                            \t\t Click \'OPTIONS\' in menu page to change grid size and number of lemons\n
+                            HOW TO PLAY GAME:\n
+                            \t\t 1. tap on any square on the grid\n
+                            \t\t 2. if lemon image pops up, lemon is found\n
+                            \t\t 3. if number pops up (aka a hint box)\n
+                            \t\t\t\t\t it defines the # of lemons in the row &amp; column\n
+                            GOAL:\n
+                            \t\t To find all lemons with the least amount of hint boxes</string>
+    <string name="url"><a href="https://opencoursehub.cs.sfu.ca/bfraser/grav-cms/cmpt276/home">ABOUT THE AUTHOR</a></string>
+    <string name="winSong"><a href="https://www.youtube.com/watch?v=5c5dXSbEjNM">WIN GAME SONG</a></string>
+    <string name="loseSong"><a href="https://www.youtube.com/watch?v=NdIeWpu0vB4">LOSE GAME SONG</a></string>
+    <string name="buttonSound"><a href="https://www.zapsplat.com/sound-effect-category/alerts-and-prompts/page/6/">BUTTON SOUND</a></string>
+    <string name="song"><a href="https://stackoverflow.com/questions/46838443/play-music-with-background-service">APP THEME SONG</a></string>
+    <string name="scorePageTitle">SCORE BOARD</string>
+    <string name="reset">RESET</string>
+    <string name="nickname">NICKNAME</string>
+    <string name="add">ADD</string>
+    <string name="cancel">CANCEL</string>
+    <string name="nicknameMessage">NICKNAME MUST BE INPUTTED</string>
+    <string name="scores">SCORES</string>
+    <string name="userScore">SCORE</string>
+    <string name="gameMode">GAME MODE</string>
+
+</resources>

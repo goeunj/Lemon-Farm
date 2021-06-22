@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="54dp"
+        android:shadowColor="#ff8c00"
+        android:shadowRadius="25.0"
+        android:textColor="#2f4f4f"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:fontFamily="casual" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="282dp"
+        android:layout_marginLeft="282dp"
+        android:layout_marginTop="54dp"
+        android:layout_toEndOf="@id/nickname"
+        android:layout_toRightOf="@id/nickname"
+        android:shadowColor="#ff8c00"
+        android:shadowRadius="25.0"
+        android:textColor="#2f4f4f"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:fontFamily="casual" />
+
+    <TextView
+        android:id="@+id/gameMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="510dp"
+        android:layout_marginLeft="510dp"
+        android:layout_marginTop="53dp"
+        android:layout_toEndOf="@id/score"
+        android:layout_toRightOf="@id/score"
+        android:shadowColor="#ff8c00"
+        android:shadowRadius="25.0"
+        android:textColor="#2f4f4f"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:fontFamily="casual" />
+
+</RelativeLayout>
