@@ -1,23 +1,24 @@
-package cmpt276.as3.lemonfarm.music;
+package lemonfarm.music;
 
 import android.annotation.SuppressLint;
 import android.app.Service;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Build;
-
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-
 import java.util.Objects;
-
 import cmpt276.as3.lemonfarm.R;
 
 /**
- * Music service to play background cmpt276.music
+ * Referred to numerous different stackOverflow questions
+ * while writing this class. Hence not original code,
+ * but referred to too many to cite all.
+ *
+ * Music service to play background cmpt276.as3.lemonfarm.music
  */
 
-public class winSong extends Service {
+public class song extends Service {
     MediaPlayer music;
 
     @Nullable
@@ -29,7 +30,7 @@ public class winSong extends Service {
     @Override
     public void onCreate(){
         super.onCreate();
-        music = MediaPlayer.create(getApplicationContext(), R.raw.win);
+        music = MediaPlayer.create(getApplicationContext(), R.raw.song);
         music.setLooping(true);
     }
 
@@ -37,12 +38,16 @@ public class winSong extends Service {
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     public int onStartCommand(Intent intent, int flag, int startId){
         if (Objects.equals(intent.getAction(), "PLAY")){
-            music.seekTo(0);
             music.start();
         }
 
         if (Objects.equals(intent.getAction(), "PAUSE")){
             music.pause();
+        }
+
+        if (Objects.equals(intent.getAction(), "STOP")){
+            music.pause();
+            music.seekTo(0);
         }
         return 1;
     }

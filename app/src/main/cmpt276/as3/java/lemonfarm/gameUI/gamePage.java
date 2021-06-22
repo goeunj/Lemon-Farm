@@ -1,4 +1,4 @@
-package cmpt276.as3.lemonfarm.gameUI;
+package lemonfarm.gameUI;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;

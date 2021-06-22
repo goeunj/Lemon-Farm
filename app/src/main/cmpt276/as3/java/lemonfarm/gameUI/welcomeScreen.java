@@ -1,4 +1,4 @@
-package cmpt276.as3.lemonfarm.gameUI;
+package lemonfarm.gameUI;
 
 import android.content.Intent;
 import android.media.MediaPlayer;
@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import cmpt276.as3.lemonfarm.R;
-import cmpt276.as3.lemonfarm.music.song;
+import lemonfarm.music.song;
 
 /**
  * Has title of game

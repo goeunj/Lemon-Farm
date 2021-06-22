@@ -1,4 +1,4 @@
-package cmpt276.as3.lemonfarm.gameUI;
+package lemonfarm.gameUI;
 
 import android.content.Intent;
 import android.content.SharedPreferences;

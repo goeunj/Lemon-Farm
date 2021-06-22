@@ -1,4 +1,4 @@
-package cmpt276.as3.lemonfarm.gameUI;
+package lemonfarm.gameUI;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
@@ -13,7 +13,7 @@ import android.widget.Toast;
 import cmpt276.as3.lemonfarm.R;
 import cmpt276.as3.lemonfarm.gameLogic.option;
 import cmpt276.as3.lemonfarm.gameLogic.optionManager;
-import cmpt276.as3.lemonfarm.music.song;
+import lemonfarm.music.song;
 
 /**
  * Has options for board view/size
